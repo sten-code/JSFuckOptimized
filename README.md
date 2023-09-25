@@ -30,6 +30,20 @@
 	A better optimized version of the official JSFuck compiler
 </p>
 
+
+<h1 align="center">Usage</h1>
+
+
+```console
+Usage: node compiler.js [OPTIONS] <file>
+OPTIONS:
+  -r [--run]    Automatically run the script after compiling
+  -q [--quiet]  Don't give any console output when compiling
+  -o [--output] The output file name
+```
+
+
+
 <h1 align="center">About</h1>
 
 This is a compiler that compiles JavaScript code into a lot of garbage that is still valid JavaScript code.
